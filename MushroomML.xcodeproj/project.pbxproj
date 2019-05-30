@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49AD104608D000D81325FF8E /* Pods_MushroomML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F9FFDC24A5C9791691FF6B /* Pods_MushroomML.framework */; };
+		5B35E48622999CA50000A284 /* DataBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E48522999CA50000A284 /* DataBaseViewController.swift */; };
+		5B35E4882299A9240000A284 /* MushroomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E4872299A9240000A284 /* MushroomEntity.swift */; };
+		5B35E48A2299DF000000A284 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E4892299DF000000A284 /* Mushroom.swift */; };
+		5B35E492229DDE940000A284 /* HandBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E491229DDE940000A284 /* HandBookTableViewController.swift */; };
+		5B35E494229EA5090000A284 /* InfoHandBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E493229EA5090000A284 /* InfoHandBookTableViewController.swift */; };
+		5B35E496229EDA680000A284 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E495229EDA680000A284 /* ImageClassificationViewController.swift */; };
+		5B35E498229EDD6A0000A284 /* MushroomModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E497229EDD6A0000A284 /* MushroomModel.mlmodel */; };
+		5B35E49A229EE03D0000A284 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35E499229EE03D0000A284 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		5B5BDBDE2299801F002092FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDBDD2299801F002092FE /* AppDelegate.swift */; };
+		5B5BDBE02299801F002092FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDBDF2299801F002092FE /* ViewController.swift */; };
+		5B5BDBE32299801F002092FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDBE12299801F002092FE /* Main.storyboard */; };
+		5B5BDBE522998022002092FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDBE422998022002092FE /* Assets.xcassets */; };
+		5B5BDBE822998022002092FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDBE622998022002092FE /* LaunchScreen.storyboard */; };
+		5B5BDBF02299810B002092FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDBEF2299810B002092FE /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F9FFDC24A5C9791691FF6B /* Pods_MushroomML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MushroomML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DAB54D7013DC818F01496A /* Pods-MushroomML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MushroomML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MushroomML/Pods-MushroomML.debug.xcconfig"; sourceTree = "<group>"; };
+		5B35E48522999CA50000A284 /* DataBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseViewController.swift; sourceTree = "<group>"; };
+		5B35E4872299A9240000A284 /* MushroomEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomEntity.swift; sourceTree = "<group>"; };
+		5B35E4892299DF000000A284 /* Mushroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+		5B35E491229DDE940000A284 /* HandBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandBookTableViewController.swift; sourceTree = "<group>"; };
+		5B35E493229EA5090000A284 /* InfoHandBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHandBookTableViewController.swift; sourceTree = "<group>"; };
+		5B35E495229EDA680000A284 /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
+		5B35E497229EDD6A0000A284 /* MushroomModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MushroomModel.mlmodel; sourceTree = "<group>"; };
+		5B35E499229EE03D0000A284 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		5B5BDBDA2299801F002092FE /* MushroomML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushroomML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5BDBDD2299801F002092FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B5BDBDF2299801F002092FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B5BDBE22299801F002092FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B5BDBE422998022002092FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B5BDBE722998022002092FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B5BDBE922998022002092FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5BDBEF2299810B002092FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B6359798F6CA109241EBB5E /* Pods-MushroomML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MushroomML.release.xcconfig"; path = "Pods/Target Support Files/Pods-MushroomML/Pods-MushroomML.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5BDBD72299801F002092FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD104608D000D81325FF8E /* Pods_MushroomML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B35E48B229DD0020000A284 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B35E4892299DF000000A284 /* Mushroom.swift */,
+				5B35E48E229DD0950000A284 /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B35E48C229DD03E0000A284 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B35E48D229DD0640000A284 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B35E48E229DD0950000A284 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5B35E4872299A9240000A284 /* MushroomEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5B35E48F229DD1250000A284 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B5BDBE422998022002092FE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B35E490229DD1570000A284 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5B35E48B229DD0020000A284 /* Model */,
+				5B35E48D229DD0640000A284 /* View */,
+				5B35E48C229DD03E0000A284 /* Controller */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5B5BDBD12299801E002092FE = {
+			isa = PBXGroup;
+			children = (
+				5B5BDBEF2299810B002092FE /* Podfile */,
+				5B5BDBDC2299801F002092FE /* MushroomML */,
+				5B5BDBDB2299801F002092FE /* Products */,
+				E2971E05DF1B6CC9EA1E6622 /* Pods */,
+				EAF90724DCD9A42D306DC1DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5BDBDB2299801F002092FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5BDBDA2299801F002092FE /* MushroomML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5BDBDC2299801F002092FE /* MushroomML */ = {
+			isa = PBXGroup;
+			children = (
+				5B5BDBE922998022002092FE /* Info.plist */,
+				5B35E490229DD1570000A284 /* Sources */,
+				5B35E48F229DD1250000A284 /* Resources */,
+				5B5BDBDD2299801F002092FE /* AppDelegate.swift */,
+				5B5BDBDF2299801F002092FE /* ViewController.swift */,
+				5B35E48522999CA50000A284 /* DataBaseViewController.swift */,
+				5B5BDBE12299801F002092FE /* Main.storyboard */,
+				5B35E497229EDD6A0000A284 /* MushroomModel.mlmodel */,
+				5B35E491229DDE940000A284 /* HandBookTableViewController.swift */,
+				5B35E493229EA5090000A284 /* InfoHandBookTableViewController.swift */,
+				5B35E495229EDA680000A284 /* ImageClassificationViewController.swift */,
+				5B5BDBE622998022002092FE /* LaunchScreen.storyboard */,
+				5B35E499229EE03D0000A284 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = MushroomML;
+			sourceTree = "<group>";
+		};
+		E2971E05DF1B6CC9EA1E6622 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46DAB54D7013DC818F01496A /* Pods-MushroomML.debug.xcconfig */,
+				7B6359798F6CA109241EBB5E /* Pods-MushroomML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAF90724DCD9A42D306DC1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F9FFDC24A5C9791691FF6B /* Pods_MushroomML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5BDBD92299801F002092FE /* MushroomML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5BDBEC22998022002092FE /* Build configuration list for PBXNativeTarget "MushroomML" */;
+			buildPhases = (
+				35F09117205AEB1A5EA757FF /* [CP] Check Pods Manifest.lock */,
+				5B5BDBD62299801F002092FE /* Sources */,
+				5B5BDBD72299801F002092FE /* Frameworks */,
+				5B5BDBD82299801F002092FE /* Resources */,
+				6B461A6216964908AD65CD07 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MushroomML;
+			productName = MushroomML;
+			productReference = 5B5BDBDA2299801F002092FE /* MushroomML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5BDBD22299801E002092FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Юрий Дубровин";
+				TargetAttributes = {
+					5B5BDBD92299801F002092FE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 5B5BDBD52299801E002092FE /* Build configuration list for PBXProject "MushroomML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B5BDBD12299801E002092FE;
+			productRefGroup = 5B5BDBDB2299801F002092FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5BDBD92299801F002092FE /* MushroomML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5BDBD82299801F002092FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5BDBE822998022002092FE /* LaunchScreen.storyboard in Resources */,
+				5B5BDBE522998022002092FE /* Assets.xcassets in Resources */,
+				5B5BDBF02299810B002092FE /* Podfile in Resources */,
+				5B5BDBE32299801F002092FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F09117205AEB1A5EA757FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MushroomML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B461A6216964908AD65CD07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MushroomML/Pods-MushroomML-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MushroomML/Pods-MushroomML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5BDBD62299801F002092FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B35E496229EDA680000A284 /* ImageClassificationViewController.swift in Sources */,
+				5B35E48622999CA50000A284 /* DataBaseViewController.swift in Sources */,
+				5B5BDBE02299801F002092FE /* ViewController.swift in Sources */,
+				5B35E4882299A9240000A284 /* MushroomEntity.swift in Sources */,
+				5B35E49A229EE03D0000A284 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				5B35E48A2299DF000000A284 /* Mushroom.swift in Sources */,
+				5B5BDBDE2299801F002092FE /* AppDelegate.swift in Sources */,
+				5B35E498229EDD6A0000A284 /* MushroomModel.mlmodel in Sources */,
+				5B35E492229DDE940000A284 /* HandBookTableViewController.swift in Sources */,
+				5B35E494229EA5090000A284 /* InfoHandBookTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B5BDBE12299801F002092FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5BDBE22299801F002092FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B5BDBE622998022002092FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5BDBE722998022002092FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5BDBEA22998022002092FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B5BDBEB22998022002092FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5BDBED22998022002092FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DAB54D7013DC818F01496A /* Pods-MushroomML.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5257ZRX3P4;
+				INFOPLIST_FILE = MushroomML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YuriyDubrovin.MushroomML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B5BDBEE22998022002092FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6359798F6CA109241EBB5E /* Pods-MushroomML.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5257ZRX3P4;
+				INFOPLIST_FILE = MushroomML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YuriyDubrovin.MushroomML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5BDBD52299801E002092FE /* Build configuration list for PBXProject "MushroomML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5BDBEA22998022002092FE /* Debug */,
+				5B5BDBEB22998022002092FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5BDBEC22998022002092FE /* Build configuration list for PBXNativeTarget "MushroomML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5BDBED22998022002092FE /* Debug */,
+				5B5BDBEE22998022002092FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B5BDBD22299801E002092FE /* Project object */;
+}
